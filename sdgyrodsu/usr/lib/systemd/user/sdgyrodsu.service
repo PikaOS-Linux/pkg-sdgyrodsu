@@ -1,14 +1,14 @@
 [Unit]
 Description=Steam Deck Gyro DSU Server
 After=sockets.target
-StartLimitIntervalSec=0
+StartLimitIntervalSec=400
+StartLimitBurst=3
 
 [Service]
 Type=simple
 Restart=always
-RestartSec=1
+RestartSec=90
 ExecStart=/usr/bin/sdgyrodsu
 
 [Install]
 WantedBy=default.target
-
