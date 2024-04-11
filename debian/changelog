@@ -1,3 +1,9 @@
+sdgyrodsu (1.15-100pika1) pikauwu; urgency=low
+
+  * Fix syslog spam
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
 sdgyrodsu (1.14-100pika1) pikauwu; urgency=low
 
   * Initial Creation
